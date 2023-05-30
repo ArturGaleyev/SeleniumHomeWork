@@ -36,7 +36,7 @@ public class Task1 {
         WebElement d= driver.findElement(By.xpath("//textarea[@name='comment']"));
         d.sendKeys("Good Job my friend!");
         Thread.sleep(5000);
-        driver.close();
+        //driver.close();
 
 
     }
